@@ -1,0 +1,107 @@
+*
+{
+padding: 0;
+margin: 0;
+}
+
+.main_header
+{
+    display: grid;
+    grid-template-columns: 50% auto;
+    height: 100vh;
+}
+
+.main_header .left
+{
+    width: 100%;
+    height: 100%;
+}
+
+.main_header .left .employee_img
+{
+    width: 100%;
+    height: 100%;
+}
+.main_header .right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 30px;
+    align-items: center;
+    width: 70%;
+    background-color: #6AAB9C;
+    padding:0px 20%;
+    
+}
+
+.main_header .right .Sign_in
+{
+    font-size:50px;
+    text-align: center;
+    padding-top: 5rem;
+    /* width: 50%; */
+}
+.right  .google_btn
+{   
+    padding-top: 40px;
+
+}
+.right  .google_btn .btn
+{   
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent; 
+    height: 40px;
+}
+
+
+.right .hr_line
+{
+    width: 80%;
+    position: relative;
+}
+
+
+.right .hr_line .or
+{
+    display: inline-block;
+    padding: 8px;
+    margin: 0px ;
+    position: absolute;
+    top:-15px;  
+    left:47%;
+    background-color: #6AAB9C;
+    color: grey
+}
+
+.right .credentials label
+{
+ color: white;
+ transform: translateX(-310px) translateY(70px);
+
+}
+
+.right .credentials input
+{
+    margin: 10px 0px;
+   padding: 13px;
+   border-radius: 5px;
+   border: 0px;
+   width: 100%;
+    
+}
+.right button
+{
+    
+    padding: 9px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
